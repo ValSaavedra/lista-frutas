@@ -1,0 +1,17 @@
+/* Debes pegar todo el código en main.css */
+* {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+body {
+  background-color: #FFFFFF;
+  color: #000000;
+}
+button {
+  width: 250px;
+  height: 50px;
+  background-color: #FBA026 ;
+  border: none; 
+  font-size: 1em;
+  color: white;
+}

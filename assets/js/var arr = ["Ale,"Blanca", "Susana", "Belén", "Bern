@@ -1,0 +1,28 @@
+var arr = ["Ale,"Blanca", "Susana", "Belén", "Bernarda", "Tatiana"];
+
+function filtradosB(arreglo){
+		var resultado = [];
+		for(var i = 0, i < arr.length; i++){
+		if(arr.[i].charAt(0) == "B"){
+			resultado.push(arr[i]);
+			}
+
+		}
+		return resultado;
+	}
+
+	console.log(filtrados(arr));
+
+	------------
+
+
+	var arr = ["Ale,"Blanca", "Susana", "Belén", "Bernarda", "Tatiana"];
+
+	var nombresConB = arr.filter(function(element){
+	 element = "Ale"
+	 return element == "B";
+
+	});
+
+	console.log(nombresConB);
+	
